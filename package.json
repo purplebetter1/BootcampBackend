@@ -1,0 +1,19 @@
+{
+  "name": "bcbackend",
+  "version": "1.0.0",
+  "description": "Brad Traversy udemy course",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon run server"
+  },
+  "author": "AG",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
